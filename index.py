@@ -30,9 +30,9 @@ def adyen_enc(cc, mes, ano, cvv, ADYEN_KEY, adyen_version):
 
 
 app = FastAPI(debug=True, 
-              title="Bin lookup And Adyen Generator Ny Roldexverse.", 
+              title="Bin lookup And Adyen Generator", 
               redoc_url=None,
-              description=" Feel free to use. made by @roldexverse for roldexverse subscribers.")
+              description=" Feel free to use. made by @xteambd for Xteambd subscribers.")
 
 
 
@@ -79,7 +79,7 @@ async def bin(bin1):
 
 @app.get("/")
 async def start():
-    return RedirectResponse("http://www.github.com/r0ld3x/adyen-enc-and-bin-info")
+    return RedirectResponse("http://t.me/Xteambdchat")
 
 
 class Item(BaseModel):
